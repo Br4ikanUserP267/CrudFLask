@@ -3,7 +3,7 @@ import certifi
 
 whereCertifi  = certifi.where()
 
-MONGO_URI = "mongodb+srv://Braikan:casillas2604@cluster0.py8on.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://<user>:<Password>@cluster0.py8on.mongodb.net/?retryWrites=true&w=majority"
 
 
 def bdConnect():
